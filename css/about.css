@@ -1,0 +1,162 @@
+
+
+#header
+{
+	background-position: center;
+	
+}
+
+#row1{
+	width:100%;
+	height:140px;
+	border: black 1px;
+	background-image: linear-gradient(to right, black , grey);
+	padding:0;
+	margin-bottom:15px;;
+}
+
+#img1{
+	margin-left:35px;
+	border:#FC6A03 5px solid;
+    
+}
+
+#p1{
+	position:absolute;
+	color:#FC6A03;
+	right:20px;
+	top:65px;
+	font-weight:bolder;
+	text-shadow: 2px 3px black;
+	font-family: 'Advent Pro', Georgia !important;
+}
+@media (max-width: 576px) {
+    #p1 { font-size: 1.5rem;top:80px; }
+}
+@media (min-width: 576px) {
+    #p1 { font-size: 2rem;top:70px; }
+}
+@media (min-width: 768px) {
+    #p1 { font-size: 2.5rem; }
+}
+@media (min-width: 992px) {
+    #p1 { font-size: 2.5rem; }
+}
+@media (min-width: 1200px) {
+    #p1 { font-size: 2.5rem; }
+}
+
+#p2{
+	position:absolute;
+	font-style:italic;
+	color:white;
+	margin:0;
+	padding:0;
+	right:20px;
+}
+@media (max-width: 576px) {
+    #p2 { font-size: 0.8rem;top:110px; }
+}
+@media (min-width: 576px) {
+    #p2 { font-size: 0.8rem; top:110px;}
+}
+@media (min-width: 768px) {
+    #p2 { font-size: 1rem; top:115px;}
+}
+@media (min-width: 992px) {
+    #p2 { font-size: 1rem;top:115px; }
+}
+@media (min-width: 1200px) {
+    #p2 { font-size: 1rem;top:115px; }
+}
+
+#p3{
+	position:absolute;
+	top:25px;
+	left:210px;
+	color:#BEBEBE;
+	font-weight:bolder;
+	font-family: 'Advent Pro', castellar !important;
+}
+
+@media (max-width: 576px) {
+    #p3 { font-size: 2rem;}
+}
+@media (min-width: 576px) {
+    #p3 { font-size: 2rem; }
+}
+@media (min-width: 900px) {
+    #p3 { font-size:3rem; }
+}
+@media (min-width: 1050px) {
+    #p3 { font-size: 3.75rem;}
+}
+@media (min-width: 1200px) {
+    #p3 { font-size: 3.75rem;}
+}
+
+
+body{
+	background-image: url('artgallerywallpapernew.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#btn1{
+	background-color:#2b2d2f;
+	color:white;
+	
+}
+
+#order{
+	background-color:grey;
+	color:white;
+}
+
+.img-fluid{
+	width: 100%;
+	height: 100%;
+}
+#footer
+{
+	margin-top:50px;
+	background-color:#2b2d2f;
+	color:black;
+	color:white;
+}
+.footer-logo
+{
+	width:200px;
+	margin-top: 50px;
+	margin-left:0;
+	margin-bottom: 50px;
+	height:200px;
+}
+#footer h1
+{
+	font-size:15px;
+	text-align: left;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+#footer p
+{
+	font-size:15px;
+	text-align: left;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color:white;
+}
+
+#footer .city
+{
+	margin-left:37px;
+
+}
+#footer .fa
+{
+	padding-right: 20px;
+	font-size: 15px;
+	
+}
